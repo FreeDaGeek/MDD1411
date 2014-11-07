@@ -1,0 +1,89 @@
+
+body {
+  color: #777777;
+}
+img {
+  max-width: 100%;
+}
+a {
+  -webkit-transition: all .1s linear;
+  -moz-transition: all .1s linear;
+  -ms-transition: all .1s linear;
+  -o-transition: all .1s linear;
+  transition: all .1s linear;
+}
+li i.icon {
+  margin-right: 8px;
+}
+.icon {
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.icon:hover {
+  text-decoration: none;
+}
+
+a {
+  color: #882a54;
+  font-weight: 600;
+}
+a.icon {
+  color: #b0b0b0;
+}
+a:hover {
+  color: #5f1b39;
+}
+
+@media screen and (max-width: 991px) {
+  .intro-container h1,
+  .intro-container h2,
+  .intro-container h3,
+  .intro-container h4,
+  .intro-container h5 {
+    line-height: 1.2;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro-container {
+    padding: 1.5em 0;
+  }
+}
+
+.navbar-default {
+  border-bottom: 1px solid #CCC;
+}
+.navbar-default a {
+  color: #b0b0b0;
+}
+.navbar-default a:hover {
+  color: #882a54;
+  box-shadow: 0px -3px 0px #882a54 inset;
+}
+.navbar-default .active a {
+  color: #882a54;
+  box-shadow: 0px -3px 0px #882a54 inset;
+}
+.navbar-default .navbar-toggle {
+  padding: 18px 15px;
+  border: 0;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #882a54;
+}
+.navbar-default .navbar-toggle.collapsed:hover .icon-bar {
+  background-color: #882a54;
+}
+.navbar-default .navbar-toggle.collapsed .icon-bar {
+  background-color: #b0b0b0;
+}
+#main-content {
+  padding: 30px 0 0 0;
+}
+.box-item {
+  width: 100%;
+  border: 1px solid #CCC;
+}
