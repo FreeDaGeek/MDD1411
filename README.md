@@ -1,5 +1,5 @@
 # Deployment Plan
----
+-----
 1. **Set Up Github repo**
   1. Log-in to Github account
   
