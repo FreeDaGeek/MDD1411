@@ -69,12 +69,16 @@ ul.social-icons li a:hover {
 }
 /***** Skills *****/
 .skills .span3 {
-	width:235px;
+	width:250px;
 	overflow: hidden;
+
+	border:8px solid white;
 }
 .skills .span5 {
 	text-align:left;
 	padding:47px 0;
+	
+	border:8px solid #203748;
 }
 .skills .ps, .skills .ai, .skills .html, .skills .css {
 	padding:25px;
